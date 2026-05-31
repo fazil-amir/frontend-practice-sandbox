@@ -10,6 +10,7 @@ import Modal from '../pages/modal/modal';
 import ArrayPolyfills from '../pages/array-polyfills/array-polyfills';
 import Scoping from '../pages/scoping/scoping';
 import Promises from '../pages/promises/promises';
+import PromiseFetchWithRetry from '../pages/promise-fetch-with-retry/promise-fetch-with-retry';
 export type PracticeRoute = {
   path: string;
   label: string;
@@ -96,6 +97,12 @@ export const practiceRoutes: PracticeRoute[] = [
     label: 'Toasts',
     slug: 'toasts',
     element: withShell('toasts', Toasts),
+  },
+  {
+    path: '/promise-fetch-with-retry',
+    label: 'Promise Fetch With Retry',
+    slug: 'promise-fetch-with-retry',
+    element: withShell('promise-fetch-with-retry', PromiseFetchWithRetry),
   },
 ];
 

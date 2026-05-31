@@ -1,0 +1,44 @@
+.practice-page--promise-fetch-with-retry .js-demo-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.practice-page--promise-fetch-with-retry .js-demo {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 16px;
+	background: var(--surface);
+	border: 1px solid var(--border-subtle);
+	border-radius: var(--radius-md);
+	box-shadow: var(--shadow-sm);
+}
+
+.practice-page--promise-fetch-with-retry .js-demo h2 {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.practice-page--promise-fetch-with-retry .js-demo__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.practice-page--promise-fetch-with-retry .js-demo__code-toggle {
+	flex-shrink: 0;
+	padding: 6px 12px;
+	font-size: 0.8125rem;
+}
+
+.practice-page--promise-fetch-with-retry .js-demo__desc {
+	margin: 0;
+}
+
+.practice-page--promise-fetch-with-retry .js-demo__desc code {
+	font-family: var(--mono);
+	font-size: 0.8125rem;
+	color: var(--text-muted);
+}
